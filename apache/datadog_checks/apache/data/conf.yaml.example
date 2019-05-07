@@ -17,7 +17,7 @@ instances:
     #
     # apache_password: <PASSWORD>
 
-    ## @param tags  - list of key:value elements - optional
+    ## @param tags - list of key:value elements - optional
     ## List of tags to attach to every metric, event and service check emitted by this integration.
     ##
     ## Learn more about tagging: https://docs.datadoghq.com/tagging/
@@ -45,11 +45,11 @@ instances:
     #
     # receive_timeout: <VALUE_IN_SECOND>
 
-  ## @param tls_ignore_warning - boolean - optional - default: false
-  ## Instructs the check to disable the TLS/SSL warnings when the apache_status_url uses https
-  ## and SSL certificate verification is disabled.
-  #
-  # tls_ignore_warning: false
+    ## @param tls_ignore_warning - boolean - optional - default: false
+    ## Instructs the check to disable the TLS/SSL warnings when the apache_status_url uses https
+    ## and SSL certificate verification is disabled.
+    #
+    # tls_ignore_warning: false
 
 ## Log Section (Available for Agent >=6.0)
 ##
