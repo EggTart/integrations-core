@@ -42,7 +42,7 @@ def download():
     )
 
     parser.add_argument(
-      '--repository', type=str, default=REPOSITORY_URL_PREFIX, help='The complete URL prefix for the TUF repository.'
+        '--repository', type=str, default=REPOSITORY_URL_PREFIX, help='The complete URL prefix for the TUF repository.'
     )
 
     parser.add_argument('--version', type=str, default=None, help='The version number of the desired Datadog check.')
